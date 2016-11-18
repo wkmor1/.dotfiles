@@ -1,1 +1,3 @@
-export PATH=$PATH:~/Scripts
+if [ -f ~/.bashrc ]; then
+    source ~/.bashrc
+fi
